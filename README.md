@@ -1,31 +1,24 @@
-# simple-docker-and-docker-compose-ruby-on-rails
-Simple Docker and Docker-compose to create app on ruby on rails
+# README
 
-# commands docker-compose
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-1 - docker-compose run app rails new . --force --skip=bundle
+Things you may want to cover:
 
+* Ruby version
 
-    * for api run the command: run docker-compose run app rails new . --api --force --skip=bundle
+* System dependencies
 
-2 - docker-compose build
+* Configuration
 
-3 - docker-compose up
+* Database creation
 
-4 - open in the browser http://localhost:3010
+* Database initialization
 
-![ruby](https://user-images.githubusercontent.com/25492122/57527686-b37fb580-7306-11e9-91bb-21545f003200.png)
+* How to run the test suite
 
-# commands examples rails with docker-compose
+* Services (job queues, cache servers, search engines, etc.)
 
-docker-compose run --rm app bundle install
+* Deployment instructions
 
-docker-compose run --rm app rake db:create
-
-docker-compose run --rm app rake db:migrate
-
-docker-compose run --rm app rake db:seed
-
-docker-compose run --rm app rails g scaffold
-
-docker-compose run --rm app rails g model
+* ...
